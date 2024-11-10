@@ -1,5 +1,5 @@
-import { Button } from '@mantine/core';
+import NavBar from "@/src/components/NavBar";
 
 export default function Home() {
-  return <></>;
+  return <NavBar />;
 }
