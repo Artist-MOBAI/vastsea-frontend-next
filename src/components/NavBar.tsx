@@ -1,3 +1,9 @@
+import styles from "@/styles/navbar.module.css";
+
 export default function NavBar(){
-    return <>测试</>;
+    return (
+        <nav className={styles.navbar}>
+            
+        </nav>
+    );
 }
