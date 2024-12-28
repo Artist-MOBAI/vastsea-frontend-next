@@ -1,9 +1,17 @@
-import styles from "@/src/styles/navbar.module.scss";
+import React from "react";
+import * as m from "@/paraglide/messages";
+import Button from "./ui/header/button";
+import Logo from "./ui/header/logo";
 
-export default function NavBar(){
-    return (
-        <nav className={styles.navbar}>
-            
-        </nav>
-    );
-}
+const NavBar = () => {
+  return (
+    <nav className="flex flex-row">
+      <Logo />
+      <Button message={m.nav_item1()} />
+      <Button message={m.nav_item2()} />
+      <Button message={m.nav_item3()} />
+    </nav>
+  );
+};
+
+export default NavBar;

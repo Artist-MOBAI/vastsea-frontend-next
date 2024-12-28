@@ -1,10 +1,14 @@
-import createNextIntlPlugin from 'next-intl/plugin';
-
-const withNextIntl = createNextIntlPlugin();
+import { paraglide } from "@inlang/paraglide-next/plugin";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "standalone",
+  /* config options here */
 };
 
-export default withNextIntl(nextConfig);
+export default paraglide({
+  paraglide: {
+    project: "./project.inlang",
+    outdir: "./src/paraglide",
+  },
+  ...nextConfig,
+});

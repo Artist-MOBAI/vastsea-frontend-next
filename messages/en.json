@@ -1,8 +1,8 @@
 {
   "$schema": "https://inlang.com/schema/inlang-message-format",
-  "nav_item1": "首页",
-  "nav_item2": "论坛",
-  "nav_item3": "捐赠",
+  "nav_item1": "HOME",
+  "nav_item2": "FORUM",
+  "nav_item3": "GIFT",
   "title1": "轨交城建",
   "title2": "服务器",
   "quote": "立志成为优秀的 Minecraft 轨交城建服务器",
