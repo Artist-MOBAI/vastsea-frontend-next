@@ -2,7 +2,7 @@ import { paraglide } from "@inlang/paraglide-next/plugin";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "standalone",
 };
 
 export default paraglide({
