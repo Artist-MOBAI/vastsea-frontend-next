@@ -26,9 +26,7 @@ const RootLayout = ({
   return (
     <LanguageProvider>
       <html lang={languageTag()}>
-        <body
-          className={`${pixelFont.variable} antialiased bg-vastsea-white m-2`}
-        >
+        <body className={`${pixelFont.variable} bg-vastsea-black antialiased`}>
           {children}
         </body>
       </html>
